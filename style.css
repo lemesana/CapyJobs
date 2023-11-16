@@ -281,14 +281,91 @@ padding: 60px;
     
 }
 .azul-claro{
-    background-color: #338d6b;
+   
     margin: 50px;
     width: 25% ;
 }
+
+.Vagas{
+    background-color: var(--verdeEscuro);
+    border-radius: 10px;
+    height: 50px;
+
+}
+.Vagas1{
+    background-color: var(--bgTextArea);
+    height: 150%;
+    font-family: "APOLLO";
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px;
+}
+.d{
+    font-family: "APOLLO";
+    font-weight: bold;
+}
+.buscando img{
+    height: 40px;
+    width: 40px;
+    text-align: justify;
+    background-color: var(--bgBranco);
+    border-radius: 50px;
+    margin-top: 5px;
+}
+.buscando{
+    display: flex;
+    justify-content: space-around;
+    text-align:inherit
+    font-family: "APOLLO";
+    background-color: var(--verdeClaro);
+    border-radius: 10px;
+    font-size: 12px;
+    width: 100%;
+    height: 80px;
+    
+}
+
 .azul{
-    background-color: #338d6b;
     margin: 50px;
     width: 25% ;
+}
+.azul img{
+    right: 70px;
+    width: 70px;
+    margin: -50px;
+    border-radius: 50px;
+    background-color: var(--bgBranco);
+}
+.azul-a{
+    background-color: var(--verdeEscuro);
+    height: 50px;
+    border-radius: 10px;
+  
+}
+.azul-b{
+    background-color: var(--bgTextArea);
+    height: 90%;
+    font-family: "APOLLO";
+    text-align: center;
+    border-radius: 10px;
+    }
+.azul-b2{
+   padding: 40px;
+   text-align: center;
+}
+.azul-b3{
+    text-align: left;
+    margin-left: 5%;
+    padding: 8px;
+}
+.projetos{
+
+}
+.trabalhos{
+
+}
+.contatos{
+
 }
 
 .grupPost{
@@ -322,6 +399,6 @@ padding: 60px;
     justify-content:space-between;
     align-items: center;
 }
-
+.
 
 
