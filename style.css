@@ -178,7 +178,8 @@ padding: 60px;
 .flex-cards {
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;
+    flex-wrap: no-wrap;
+    overflow-x: auto;
 }
 
 .card {
@@ -187,7 +188,8 @@ padding: 60px;
     background-color: var(--verdeClaro) !important;
     border-radius: 100%;
     align-items: center;
-    width: 20%;
+    /* olhar width dps */
+    width: 20%; 
     height: 350px;
 }
 
@@ -221,11 +223,104 @@ padding: 60px;
     margin: 25px;    
 }
 .arroz{
-    border: solid black;
-    background-color: #027449;
+    border: solid 1px var(--verdeMedio);
+    background-color: var(--verdeMedio);
+    border-radius: 10px;
 }
+.form-login-index h3{
+    font-size: 55px;
+}
+.form-login-index {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    color: #ffffff
+}
+.form-login-index a{
+    color: var(--bgBranco);
+}
+
+.form-login-index input {
+    background-color: var(--bege);
+    border: none;
+    border-radius: 25px;
+    margin: 15px;
+    width: 80%;
+    height: 50px;
+    align-items: center;
+}
+
+.form-login-index input:hover {
+    border: 1px solid black;
+}
+
+.form-login-index button {
+    font-size: 20px;
+    background-color: var(--bege);
+    width: 30%;
+    margin-top: 10px;
+    margin-left: 25%;
+    border-radius: 25px;
+    border: none;
+    border: 25px;
+    cursor: pointer;
+    
+}
+
+.form-login-index button:hover {
+    border-radius: 1px solid black;
+}
+
 .batata{
-    border: solid yellow;
-    background-color: #ffdead;
+    text-align: center;
+    margin: 150px;
+} 
+.feed{
+    display:flex ;
+    justify-content: space-around;
+    
 }
+.azul-claro{
+    background-color: #338d6b;
+    margin: 50px;
+    width: 25% ;
+}
+.azul{
+    background-color: #338d6b;
+    margin: 50px;
+    width: 25% ;
+}
+
+.grupPost{
+    margin: 50px;
+    border: solid 1px var(--verdeMedio);
+    background-color: var(--verdeMedio);
+    border-radius: 10px; 
+    width: 100%;
+    height: 250px; 
+}
+.grupPost img{
+    margin: 30px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px ;
+    background-color: #F0F3F5;
+}
+.grupPost input{
+    background-color: var(--bgTextArea);
+    border: none;
+    border-radius: 25px;
+    margin: 0px;
+    width: 80%;
+    height: 50px;
+    align-items: center;
+}
+.grupPost-vaga{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
 
